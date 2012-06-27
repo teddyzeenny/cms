@@ -1,0 +1,1 @@
+ <p><?php echo h($this->request->data['Comment']['content']) . ' by ' . $user; ?></p>

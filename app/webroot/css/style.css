@@ -1,0 +1,71 @@
+/* 
+    Document   : style
+    Created on : Jun 21, 2012, 5:45:40 PM
+    Author     : rami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background-color: #333;
+    font-family: arial, serif;
+}
+
+a {
+    color: #FFF;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#content {
+    clear: both;
+}
+
+.title {
+    color: #FFF;
+}
+
+.top-nav-elem {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px; 
+}
+
+.top-nav-elem a {
+    color: #FFF;
+}
+
+#top-nav {
+    float: left;
+    margin: 10px 0 10px 0;
+}
+.clear {
+    clear: both;
+}
+#PageAddForm label, #PageEditForm label {
+    display: block;
+    width: 200px;
+    color: #CCC;
+}
+#PageAddForm input[type='text'], #PageAddForm textarea, #PageEditForm input[type='text'], #PageEditForm textarea {
+    width: 200px;
+}
+#PageAddForm div.input, #PageEditForm div.input {
+    margin-bottom: 10px;
+}
+#diplay-pages {
+    color: #FFF;
+    border: thin solid #FFF;
+    border-collapse: collapse;
+}
+#diplay-pages tr td, #diplay-pages tr th {
+    border: thin solid #FFF;
+}
+#diplay-pages a {
+    color: #FFF;
+}
+.error-message {
+    color: red;
+}
